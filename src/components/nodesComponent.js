@@ -1,6 +1,6 @@
 // src/LandingPage.js
 import React from "react";
-import "../styles/LandingPage.css";
+import "../assets/styles/LandingPage.css";
 import Frame1 from "../assets/images/frame1.png";
 import Frame2 from "../assets/images/frame2.png";
 import Image from "./common/image";

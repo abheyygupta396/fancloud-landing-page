@@ -1,6 +1,6 @@
 // src/LandingPage.js
 import React from "react";
-import "../styles/GlobePage.css";
+import "../assets/styles/GlobePage.css";
 import Globe from "../assets/images/globe.png";
 import Subtract from "../assets/images/Subtract.png";
 import Dummy from "../assets/images/dummy.png";
