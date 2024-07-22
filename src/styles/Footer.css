@@ -1,0 +1,35 @@
+/* src/LandingPage.css */
+.main-footer {
+  font-family: "Arial", sans-serif;
+  color: #fff;
+  background: linear-gradient(145deg, #1a1a1a, #2b2b2b);
+  text-align: center;
+  padding: 20px;
+}
+
+.transition-footer {
+  padding: 50px 20px;
+  text-align: center;
+  color: #ccc;
+}
+
+.transition-footer h2 {
+  margin-bottom: 20px;
+  font-family: Nohemi;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38.4px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.transition-footer p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Nohemi;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}

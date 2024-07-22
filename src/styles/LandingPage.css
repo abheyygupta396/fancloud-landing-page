@@ -1,0 +1,134 @@
+.landing-page {
+  font-family: "Arial", sans-serif;
+  color: #fff;
+  background: linear-gradient(145deg, #1a1a1a, #6c5ff5);
+  text-align: center;
+  padding: 20px;
+}
+.overlap-image {
+  background-image: url("../assets/images/gridLines.png");
+}
+
+.header {
+  padding: 0;
+}
+
+.header h1 {
+  margin-bottom: 20px;
+  font-family: Bricolage Grotesque 24pt Condensed;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  
+}
+
+.header p {
+  padding-top: 13px;
+  margin-bottom: 35px;
+  font-family: Nohemi;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.blend-text {
+  font-weight: bold;
+  font-size: 2.5rem; /* Adjust the size as needed */
+  background: linear-gradient(to right, #ffffff, #6B61FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  mix-blend-mode: color-dodge;
+}
+
+.coming-soon-btn {
+  background-color: #5b21b6;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 40px;
+  transition: background-color 0.3s;
+}
+
+.coming-soon-btn:hover {
+  background-color: #6d28d9;
+}
+
+.images-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 70px;
+  padding: 50px 20px;
+}
+
+.image {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+}
+
+.image:hover {
+  transform: scale(1.05);
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  padding: 50px 20px;
+}
+
+.footer img {
+  width: 606px;
+  height: 217px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stat {
+  background: linear-gradient(145deg, #4b4b4b, #3b3b3b);
+  padding: 20px;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.stat p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.stat h2 {
+  font-size: 2em;
+}
+
+#img1 {
+  transform: rotate(-30deg);
+  margin-top: 15px;
+}
+#img2 {
+  width: 100px;
+  height: 50px;
+}
+#img3 {
+  transform: rotate(30deg);
+  margin-top: 30px;
+}
+#img4 {
+  transform: rotate(-8deg);
+}
+#img5 {
+  margin-top: 70px;
+}
